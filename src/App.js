@@ -6,7 +6,7 @@ const App = () => {
   const [active, setActive] = useState(false);
 
   const openAccordion = () => {
-    if(active == false){
+    if(active === false){
       setActive(true);
     }
     else{
